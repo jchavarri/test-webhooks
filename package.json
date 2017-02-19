@@ -9,6 +9,7 @@
   },
   "scripts": {
     "prepush": "node prepush.js",
+    "precommit": "node precommit.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

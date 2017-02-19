@@ -21,7 +21,7 @@ callback = function(response) {
   //the whole response has been recieved, so we just print it out here
   response.on('end', function () {
     console.log('received' + str);
-    process.exit(1);
+    // process.exit(1);
   });
 }
 var req = http.request(options, callback);
