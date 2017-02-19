@@ -8,8 +8,7 @@
     "husky": "^0.13.1"
   },
   "scripts": {
-    "precommit": "npm test",
-    "prepush": "npm test",
+    "prepush": "node prepush.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
