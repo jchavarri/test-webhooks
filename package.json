@@ -1,0 +1,25 @@
+{
+  "name": "test-webhooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^0.13.1"
+  },
+  "scripts": {
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchavarri/test-webhooks.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jchavarri/test-webhooks/issues"
+  },
+  "homepage": "https://github.com/jchavarri/test-webhooks#readme"
+}
