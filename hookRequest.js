@@ -5,7 +5,6 @@ exports.makeRequest = function makeRequest(op) {
   var ref = require('child_process')
   .execSync('git rev-parse --abbrev-ref HEAD')
   .toString().trim();
-  console.log(ref);
 
   var options = {
     host: 'localhost',
