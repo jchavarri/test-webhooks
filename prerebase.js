@@ -1,6 +1,3 @@
-var http = require('http');
+var hookRequest = require('./hookRequest');
 
-console.log('No bla bla ');
-console.log('process.env.GIT_PARAMS');
-console.log(JSON.stringify(process.env.GIT_PARAMS));
-process.exit(1);
+hookRequest.makeRequest('prerebase');
